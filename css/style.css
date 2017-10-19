@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    height: 160px;
+    background-color: rgba(235, 232, 232, 0.59);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+nav {
+    height: 100px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+    /*padding: 31px 0;*/
+    padding: 80px 0 0;
+}
+
+li {
+    padding: 10px 20px 0;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    color: rgba(17, 24, 56, 0.88);
+}
+
+.conteiner {
+    /*margin: 0 50px;*/
+    padding: 0 50px;
+    height: 600px;
+    text-align: left;
+    background-color: #FDFDFF;
+}
+
+main {
+    height: 100%;
+    width: 75%;
+    background-color: #FDFDFF;
+    float: left;
+    border-radius: 3px 0 0 3px;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 7px;
+    margin: 0px;
+    padding: 10px 0;
+    padding: 10px 0;
+    color: #c05456;
+}
+
+main article {
+    padding: 50px 40px 20px 120px;
+    font-size: 18px;
+}
+
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: #FDFDFF;
+    float: right;
+    border-radius: 0 3px 3px 0;
+    border-left: 2px rgba(0, 0, 0, 0.04) ridge;
+    text-align: left;
+}
+
+aside article {
+    padding-left: 40px;
+    padding-top: 104px;
+    font-size: 18px;
+    color: rgb(56, 78, 92);
+    line-height: 2em;
+
+}
+
+aside p {
+    padding-bottom: 20px;
+}
+
+
+aside span {
+    color: rgba(143, 36, 88, 0.9);
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: lighter;
+
+}
+
+
+footer {
+    height: 100px;
+    background-color: rgba(17, 24, 56, 0.88);
+    clear: both;
+}
+
+
