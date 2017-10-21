@@ -8,23 +8,92 @@
 header {
     height: 160px;
     background-color: rgba(235, 232, 232, 0.59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+
+/*textarea::placeholder{
+    padding-left: 30px;
+}
+
+textarea {
+    padding-left: 10px;
+}
+
+input[type="radio"] {
+
+
+}
+
+input:required + label::after {
+    content:"*";
+    color:red;
+}
+
+main form input[type="email"]:invalid {
+    content: "!!!";
+    color: red;
+}
+
+input:valid + label::after {
+    color: #0fff51;
+}
+
+select {
+    width: 300px;
+}
+
+option {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+main article:first-child h1 {
+    color: aqua;
+}
+
+h1::before {
+    content: "+";
+    color: darkgreen;
+    margin-right: 1rem;
+}
+
+main article:nth-child(2) {
+    color: #ff0725;
+}
+
+main article:last-child p{
+    font-size: 40px;
+    }*/
+
+main article {
+    padding: 50px 40px 20px 120px;
+    font-size: 18px;
+
 }
 
 header img {
     width: 100px;
     height: 100px;
     margin-left: 50px;
+    /*margin-left: 50px;
     float: left;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 30px;*/
 }
 
 nav {
-    height: 100px;
+    /*height: 100px;
     float: right;
     margin-right: 50px;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 30px;*/
     letter-spacing: 5px;
     font-family: 'Amatic SC', cursive;
     font-size: 16px;
@@ -32,7 +101,7 @@ nav {
 
 ul {
     list-style-type: none;
-    /*padding: 31px 0;*/
+    /*!*padding: 31px 0;*/
     padding: 80px 0 0;
 }
 
@@ -52,18 +121,23 @@ nav a {
 
 .conteiner {
     /*margin: 0 50px;*/
+    height: auto;
     padding: 0 50px;
-    height: 600px;
     text-align: left;
     background-color: #FDFDFF;
+    display: flex;
+    align-items: stretch;
 }
 
 main {
-    height: 100%;
+    /*height: 100%;
     width: 75%;
+    float: left;*/
     background-color: #FDFDFF;
-    float: left;
     border-radius: 3px 0 0 3px;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
 }
 
 main h1 {
@@ -74,23 +148,22 @@ main h1 {
     letter-spacing: 7px;
     margin: 0px;
     padding: 10px 0;
-    padding: 10px 0;
     color: #c05456;
 }
 
-main article {
-    padding: 50px 40px 20px 120px;
-    font-size: 18px;
 }
 
 aside {
-    height: 100%;
+    /*height: 100%;
     width: 25%;
+    float: right*/;
     background-color: #FDFDFF;
-    float: right;
     border-radius: 0 3px 3px 0;
     border-left: 2px rgba(0, 0, 0, 0.04) ridge;
     text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 aside article {
@@ -99,12 +172,14 @@ aside article {
     font-size: 18px;
     color: rgb(56, 78, 92);
     line-height: 2em;
-
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 aside p {
     padding-bottom: 20px;
 }
+
 
 
 aside span {
@@ -120,6 +195,7 @@ footer {
     height: 100px;
     background-color: rgba(17, 24, 56, 0.88);
     clear: both;
+    justify-content: flex-end;
 }
 
 
