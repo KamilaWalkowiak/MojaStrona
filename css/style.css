@@ -20,9 +20,9 @@ header img {
 }
 
 nav {
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     font-family: 'Amatic SC', cursive;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 ul {
@@ -106,8 +106,9 @@ aside p {
     color: rgba(15, 23, 75, 0.6);
 }
 
-abbr {
+abbr[title] {
     text-decoration: none;
+    border-bottom: none;
 }
 
 aside span {
