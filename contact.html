@@ -33,52 +33,27 @@
 </header>
 <div class="container">
         <main>
-            <p>Jeli chcesz otrzymywac zaproszenia na wystawy wypelnij formularz</p>
-            <div class="forms">
+            <article>
+                <p>Jeśli zaczynasz malowac i potrzebujesz rady, masz jakieś pytania lub może zechcesz dac mi rady odnośnie mojej twórczości, napisz do mnie. </p>
                 <form action=""method="">
-                    <input name="" type="text" value="piszupiszu" required>
-                    <input name="" type="password">
-                    <input name="" type="email"><label></label><br>
-                    <input name="" type="text">
-                    <input name="" type="tel" required>
-                    <input name="" type="submit" value="klik!" required>
-                    <input name="" type="reset">
-                    <input name="" type="date">
-                    <input name="" type="file">
-                    <input name="" type="number">
-                    <input name="" type="wiek">
-                    <textarea name="takietam" type="tel" placeholder="numer telefonu" rows="3" cols="9"></textarea>
+                    <label for="imie">imię<span class="star">&#x2605;</span></label>
+                    <input name="imie" type="text" id="imie" class="shorter_input" value="" required>
+                    <label for="nazwisko">nazwisko<span class="star">&#x2605;</span></label>
+                    <input name="nazwisko" type="text" id="nazwisko" class="shorter_input" value="">
+                    <label for="email">email<span class="star">&#x2605;</span></label>
+                    <input name="email" type="email" id="email" class="shorter_input" value="" required>
+                    <label for="wiadomość">wiadomość</label>
+                    <textarea name="wiadomość" id="wiadomość" placeholder="" rows="3" cols="20"></textarea>
+                    <input type="submit" class="button" value="wyślij">
+                    <input type="reset" class="button" value="wyczyść">
                 </form>
-
-                <select name="" required multiple>
-                    <option value="">red</option>
-                    <option value="">blue</option>
-                    <option value="">black</option>
-                    <option value="">purple</option>
-                    <option value="">green</option>
-                    <option value="">red</option>
-                    <option value="">blue</option>
-                    <option value="">black</option>
-                    <option value="">purple</option>
-                    <option value="">green</option>
-                </select>
-
-                <input list="kwiaty" name="kwiaty">
-                <datalist id="kwiaty">
-                    <option value="maki">maki</option>
-                    <option value="orliki">orliki</option>
-                    <option vanamelue="piwonie">piwonie</option>
-                </datalist>
-
-                <input type="radio" name="gender" value="male" checked><label>Male</label><br>
-                <input type="radio" name="gender" value="female" required checked><label>Femile</label><br>
-                <input type="radio" name="gender" value="other" checked><label>Other</label<br> <!--zamiast br moge zrobic before-->
-            </div>
+            </article>
         </main>
     <aside>
         <article>
-            <p>Kamila Bartków><br>ul.Dżdżysta 17<br>pod Lasem<br>kamila.bartkow@gmail.com</p>
-        </article
+            <p>Kamila<br>Bartków</p>
+            <p>kamila.bartkow@gmail.com</p>
+        </article>
     </aside>
 </div>
 <footer>

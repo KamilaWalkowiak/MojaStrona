@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     font-family: 'Cormorant Garamond', serif;
-    color: rgba(15, 23, 75, 0.85);
 }
 
 header {
@@ -74,6 +73,15 @@ figcaption {
     font-style: italic;
     margin-top: 5px;
     text-align: center;
+}
+
+.info {
+    position: fixed;
+    bottom: 170px;
+    right: 100px;
+    letter-spacing: 6px;
+    font-size: 25px;
+    color: #ff3506;
 }
 
 footer {
