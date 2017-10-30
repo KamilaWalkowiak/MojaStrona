@@ -51,10 +51,7 @@ nav a {
 
 main {
     height: auto;
-    padding-top: 80px;
-    padding-right: 170px;
-    padding-left: 170px;
-    padding-bottom: 200px;
+    padding: 80px 170px 200px;
     text-align: left;
     background-color: #FDFDFF;
     display: flex;

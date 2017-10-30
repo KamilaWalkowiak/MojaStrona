@@ -51,18 +51,18 @@ nav a {
 
 
 main {
-height: auto;
+    height: auto;
     /*padding: 80px 50px;*/
     padding-top: 80px;
     padding-right: 170px;
     padding-left: 170px;
     padding-bottom: 200px;
-text-align: left;
-background-color: #FDFDFF;
-display: flex;
-border-radius: 3px;
-align-items: center;
-justify-content: space-between;
+    text-align: left;
+    background-color: #FDFDFF;
+    display: flex;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main img {
