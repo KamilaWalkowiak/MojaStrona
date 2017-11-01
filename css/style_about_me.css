@@ -25,13 +25,13 @@ nav {
     font-size: 16px;
 }
 
-ul {
+header ul {
     list-style-type: none;
     margin-right: 50px;
     margin-bottom: 16px;
 }
 
-li {
+header li {
     display: inline-block;
     padding-left: 20px;
 }
@@ -42,7 +42,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 a:hover, a:active {
-    color: rgba(33, 49, 160, 0.95);
+    color: #070134;
 }
 
 nav a {
@@ -52,11 +52,7 @@ nav a {
 
 main {
     height: auto;
-    /*padding: 80px 50px;*/
-    padding-top: 80px;
-    padding-right: 170px;
-    padding-left: 170px;
-    padding-bottom: 200px;
+    padding: 80px 170px 200px;
     text-align: left;
     background-color: #FDFDFF;
     display: flex;
@@ -69,6 +65,8 @@ main img {
     height: 300px;
     max-width: 500px;
     border-radius: 3px;
+    box-shadow: 0 0 1px 1px rgb(89, 88, 88);
+    border: 1px solid rgb(89, 88, 88);
 }
 
 figcaption {
@@ -84,7 +82,7 @@ main h1 {
     font-weight: 800;
     letter-spacing: 7px;
     /*padding: 10px 0;*/
-    color: #c05456;
+    color: #ee7878;
 }
 
 main article {
@@ -98,10 +96,33 @@ footer {
     background-color: rgba(17, 24, 56, 0.88);
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 small {
     color: rgba(150, 169, 255, 0.85);
     margin-left: 50px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+footer li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.fa {
+    font-size: 25px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #faf7f7;
+}
+
+.fa:hover {
+    color: #6bcbbf;
 }
 
